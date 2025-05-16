@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--Reset general-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="page-container" id="pageContainer">
+    <!--NAVEGACION USUARIO Y REGISTRO-->
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>        
+        <div class="left">
+            <a href="#">Account</a>
+            <a href="#">Checkout</a>
+            <a href="#">Dashbord</a>
+        </div>
+
+        <div class="center">
+            
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i> 
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://plus.google.com" target="_blank">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-wifi"></i>
+            </a>
+        </div>
+
+        <div class="right">
+            <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="#"><i class="fas fa-user-plus"></i> Register</a>
+        </div>
+    </nav>
+    <!--SECCION DE CONTACTO-->
+    <div class="contact-info">
+        <div><i class="fas fa-phone"></i>(+800) 123 456 7890 </div>
+        <div><i class="fas fa-envelope"></i> contact@support.com</div>
+    </div>
+
+    <!--BARRA DE BUSQUEDA-->
+    <div class="search-container">
+        <input type="text" placeholder="Search for products...">
+        <select> 
+            <option value="all">All category</option>
+            <option value="ropa">Ropa</option>
+            <option value="electronica">Electronica</option>
+            <option value="hogar">Hogar</option>
+        </select>
+        <button><i class="fas fa-search"></i></button>
+    </div>
+
+    <!--NAVEGACION TIENDA, LOGO Y CARRITO-->
+    <div class="nav-tienda">
+        <div class="logo">
+            <i class="fas fa-store"></i>
+            <span class="logo-text">Mi Tienda</span>
+        </div>
+        <!--NAVEGACION-->
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">HOME</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">SHORTCODE</a>
+                    <a href="#">FEATURE</a>
+                    <a href="#">PAGES</a>
+                </li>
+            </ul>
+        </div>
+        <!--CARRITO-->
+        <div class="cart-info">
+            <i class="fas fa-shopping-cart"></i>
+            <span><b>$</b> 0.00</span>
+        </div>
+    </div>
+
+    <!--IMAGEN FULL WIDTH-->
+    <section class="header-image">
+        <img src="banner.png" alt="banner de la tienda" class="banner-img">
+        <div class="overlay"></div>
+        <div class="header-text">
+            <h6>FREE SHIPPING ON ORDERS OVER $100!</h6>
+            <div class="separator"><span></span></div>
+            <div class="text-lema">
+            <h1>HOT NEW RANGE</h1>
+            <h1>IN STOCK!</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--CUADROS DE IMAGENES COMO BOTONES-->
+    <section class="image-box">
+        <a href="#" class="image-item image1">
+            <img src="img/jacket.jpg" alt="winter jackets">
+            <div class="overlay-text">WINTER JACKET</div>
+        </a>
+        <a href="#" class="image-item image2">
+            <img src="img/runnig.jpg" alt="Running Shoes">
+                <div class="overlay-text">RUNNING SHOES</div>
+        </a>
+        <a href="#" class="image-item image3">
+            <img src="img/shirts.jpeg" alt="Men's Shirts">
+            <div class="overlay-text">MEN'S SHIRTS</div>
+        </a>
+    </section>
+
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">¡Gracias por visitarnos!</p>
+            <p class="footer-copy">© 2025 Mi tienda. Todos los derechos reservados.</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com" class="social-link" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com" class="social-link" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com" class="social-link" target="_blank">Instagram</a>
+            </div>
+            <div class="footer-note">
+                <p class="note-text">Diseñado con cariño para la comunidad.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
